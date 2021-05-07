@@ -103,3 +103,24 @@ Home
 .hero {
 	padding: 22px 80px 66px 80px;
 }
+
+
+/*
+========================================
+Clearfix
+========================================
+*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
